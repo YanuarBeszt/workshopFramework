@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Bootstrap</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <style>
-            .footer {
-                position: fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color: red;
-                color: white;
-                text-align: center;
-            }
 
-            .navbar{
-                position: relative;
-                background-color:blueviolet;
-                color: blanchedalmond;
-                width: 100%;
-            }
+<head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
 
-            .jumbotron{
-                padding: 20px;
-                margin-left: 100px;
-                margin-right: 100px;
-                background-color:aqua;
+        .navbar {
+            position: relative;
+            background-color: rgb(146, 74, 214);
+            width: 100%;
+        }
 
-            }
+        .navbar-brand {
+            color: rgb(226, 35, 35);
+        }
 
-            .content{
-                margin-left: 100px;
-                margin-right: 100px;
-            }
-        </style>
-    </head>
-    <body>
+        .jumbotron {
+            padding: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: aqua;
+
+        }
+
+        .content {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .inner {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">WebSiteName</a>
+                <a class="navbar-brand">LatihanSaya</a>
             </div>
         </div>
     </nav>
 
     <div class="jumbotron">
-        <h1>INI JUMBOTRON</h1>      
+        <h1>INI JUMBOTRON</h1>
         <p>Pemanasan membuat WebSite</p>
     </div>
 
     <div class="container-fluid content">
         <div class="row">
-            <div class="col-sm-4" style="background-color:blue;">.col-sm-4</div>
-            <div class="col-sm-8" style="background-color:coral;">.col-sm-8</div>
+            <div class="col-sm-8 inner" style="background-color:rgb(110, 110, 206);">ini content utama</div>
+            <div class="col-sm-4 inner" style="background-color:rgb(95, 93, 189);">ini sidebar content</div>
         </div>
     </div>
 
@@ -65,5 +74,6 @@
         <p>Footer</p>
     </div>
 
-    </body>
+</body>
+
 </html>
